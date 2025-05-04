@@ -1,0 +1,42 @@
+.navi{
+    color:black;
+    background-color:whitesmoke;
+    width: 50px;
+    height: 700px;
+    max-height: 700px;
+    margin-top: 0px;
+    
+}
+#home,#offer,#memship,#cart{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+#flex{
+    position: relative;
+    bottom: 718px;
+    height: 250px;
+    margin-left: 55px;
+    background-color: rgb(155, 247, 215);
+}
+.products h3{
+    background-color: yellowgreen;
+    position: relative;
+    bottom: 710px;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 710px;
+    height: 150px;
+    width: 150px;
+    left: 60px;
+    background-color: rgb(255, 176, 127);
+}
+
