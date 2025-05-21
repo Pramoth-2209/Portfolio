@@ -24,7 +24,12 @@ body{
     margin-left: 10px;
     margin-top: 10px;
 }
-
+#protail a{
+    color: rgb(240, 112, 6);
+}
+#protail a:hover{
+    color: orange;
+}
 #tail {
     display: flex;
     justify-content: right;
