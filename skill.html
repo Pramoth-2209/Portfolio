@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="home">
-        <div id="head">
-            <h3>portfolio</h3>
-        </div>
-        <div id="tail">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a  class="active" href="skill.html">skill</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </div>
+     <div class="navbar">
+    <div class="logo">portfolio</div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+    <div class="menu" id="menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skill.html">Skill</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div>
     <div class="inbody">
         <div class="skills">
             <div class="lang">
@@ -102,4 +104,5 @@
         </div>
     </div>
 </body>
+ <script src="script.js"></script>
 </html>
