@@ -29,18 +29,19 @@
 
     .menu {
       display: flex;
-      gap: 20px;
+      gap: 10px;
+
     }
 
     .menu a {
       text-decoration: none;
       color: white;
       font-size: 18px;
+      padding: 5px;
+      border-radius: 10px;
     }
 
-    .menu a:hover{
-        color: rgb(240, 112, 6);
-    }
+    
 
     .hamburger {
       display: none;
@@ -59,7 +60,7 @@
     @media (max-width: 768px) {
       .menu {
         display: none;
-        flex-direction: column;
+        flex-direction:column;
         background: #222222cf;
         backdrop-filter: blur(5px);
         position: absolute;
@@ -69,6 +70,13 @@
         text-align: right;
         padding: 20px;
       }
+      .menu a:hover{
+        color: rgb(240, 112, 6);
+    }
+    .menu a:hover{
+        box-shadow: inset 0px 0px 0px rgba(255, 87, 34,0.5);
+        background: linear-gradient(to right,rgb(154, 72, 5) 2%,rgb(81, 41, 3) 40%,#222222cf 100%);
+    }
       .menu a:hover{
          color: rgb(240, 112, 6);
       }
@@ -248,7 +256,6 @@ a{
 }
 .langs{
     margin: 10px;
-    
 }
 
 .inbody{
@@ -267,9 +274,7 @@ a{
     border-radius: 20px;
     
 }
-.langs img :hover{
-    box-shadow:2px 6px 10px,rgb(240, 112, 6);
-}
+
 #js{
     height: 75px;
 }
@@ -297,10 +302,17 @@ a{
     max-width: 300px;
     width:auto;  
     border: 3px solid rgb(82,79,79);
+    transition: transform 0.3s;
+    background-color:rgba(0, 0, 0, 0.905);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 1px rgb(240, 112, 6);
+
 }
+    
 #prohead{
     background-color: aliceblue;
     height: 200px;
+    width: auto;
     border-radius: 20px;
     
 }
@@ -313,6 +325,8 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     line-height: 20px;
+    background-color:rgba(0, 0, 0, 0.905);
+    backdrop-filter: blur(10px);
 }
 #py{
     height:100%;
@@ -321,6 +335,7 @@ a{
     border-start-end-radius:20px ;
     
 }
+
 #project{
     margin-bottom: 50px;
 }
