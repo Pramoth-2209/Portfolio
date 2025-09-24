@@ -199,7 +199,6 @@ a{
     justify-content:center;
     align-items:justify;
     text-align: justify;
-    margin: 10px;
     font-weight: bolder;
     padding: 20px;
     padding-top: 0px;
@@ -209,15 +208,49 @@ a{
     border:1px solid rgb(82,79,79);
     
 }
+
+.block {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) minmax(900px, 2fr);
+ 
+  margin-left: 40px;
+}
+.header h3{
+    margin: 0;
+}
+.details p{
+    margin: 0;
+}
+.details{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+@media (max-width: 900px) {
+  .block {
+    grid-template-columns: 1fr;
+  }
+}
+
+.block .header{
+    font-weight: bolder;
+}
+
+
+
+
 .container{
-    margin-top: 30px;
+    margin: 30px auto;
+    width: 83%;
+
 }
 .bio{
     padding:10px;
     justify-content:center;
     align-items: center;
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(400px,1fr));
+    margin: 0px auto;
+    grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
 
 }
 
@@ -261,6 +294,8 @@ a{
 
 .inbody{
     margin-top: 30px;
+    width: 83%;
+    margin: 30px auto;
 }
 .lang{
     border: 1px solid rgb(82,79,79);
@@ -296,6 +331,10 @@ a{
 }
 .port{
     color: rgb(240, 112, 6);
+}
+
+.blck{
+    display: flex;
 }
 .procard{
     margin: 40px;
@@ -360,6 +399,8 @@ body{
     align-items: center;
     text-align: center;
     padding: 30px;
+    width: 84%;
+    margin: 30px auto;
 }
     
 .types img{
