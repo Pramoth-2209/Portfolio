@@ -19,6 +19,7 @@
       border-radius: 10px;
       position: sticky;
       top: 20px;
+      z-index: 999;
     }
 
     .navbar .logo {
@@ -306,6 +307,7 @@ a{
     background-color:rgba(0, 0, 0, 0.905);
     backdrop-filter: blur(10px);
     box-shadow: 20px 20px 1px rgb(240, 112, 6);
+    z-index: 99;
 
 }
     
