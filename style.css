@@ -12,7 +12,7 @@
       justify-content: space-between;
       align-items: center;
       backdrop-filter: blur(5px);
-      border: 0.5px solid gray  ;
+      border: 1px solid #2F3336 ;
       background: #00000083;
       padding: 15px 20px;
       margin: 20px 10% 0px 10%;
@@ -206,7 +206,7 @@ a{
     margin: 10px;
     width:auto;
     line-height: 30px;
-    border:1px solid rgb(82,79,79);
+    border:1px solid #2F3336;
     
 }
 
@@ -301,7 +301,7 @@ a{
     margin: 30px auto;
 }
 .lang{
-    border: 1px solid rgb(82,79,79);
+    border: 1px solid #2F3336;
     border-radius: 20px;
     margin: 10px;
 }
@@ -322,7 +322,7 @@ a{
     color: rgb(240, 112, 6);
    } 
 .prpro{
-    border:1px solid rgb(82,79,79) ;
+    border:1px solid #2F3336 ;
     width: 98%;
     border-radius: 20px;
     margin: 10px auto;
@@ -351,17 +351,47 @@ html{
     display: flex;
 }
 .procard{
-    margin: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
     border-radius: 20px;
     max-width: 300px;
     width:auto;  
-    border: 3px solid rgb(82,79,79);
+    border: 1px solid #2F3336;
     transition: transform 0.3s;
     background-color:rgba(0, 0, 0, 0.905);
     backdrop-filter: blur(10px);
     /* box-shadow: 20px 20px 1px rgb(240, 112, 6); */
     z-index: 99;
 
+}
+
+#github{
+    margin-bottom: 18px;
+    display: flex;
+    align-items: end;
+    justify-content:end;
+    text-align: center;
+    gap: 25px;
+}
+
+#github button{
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    width: 260px;
+    border-radius: 10px;
+    border: 1px solid #2F3336;
+    background-color:black;
+    color:rgb(240, 112, 6);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.2s ease-in-out;
+}
+#github button:hover{
+   color: black;
+   background-color: rgb(240, 112, 6);
 }
     
 #prohead{
@@ -455,7 +485,7 @@ body{
     
 }
 #phone{
-    border: 1px solid gray;
+    border: 1px solid #2F3336;
     margin: 30px;
     padding: 30px;
     border-radius: 20px;
