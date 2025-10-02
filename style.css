@@ -323,9 +323,9 @@ a{
    } 
 .prpro{
     border:1px solid #2F3336 ;
-    width: 98%;
+    width: 80%;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: 30px auto;
 
 }
 
@@ -338,6 +338,7 @@ html{
     gap: 10px;
     width: 100%;
     display: flex;
+    padding: 10px 0px 10px 0px;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     border-radius: 20px;
@@ -352,7 +353,6 @@ html{
 }
 .procard{
     margin: 10px;
-    margin-bottom: 20px;
     border-radius: 20px;
     max-width: 300px;
     width:auto;  
@@ -447,6 +447,10 @@ html{
     padding-top: 120px;
 }
 #contact{
+    min-height: 100vh;
+    padding-top: 120px;
+}
+#projects{
     min-height: 100vh;
     padding-top: 120px;
 }
