@@ -110,7 +110,7 @@ body{
     backdrop-filter: blur(2px);
     background-color:rgb(0, 0,0,0.2);
 }
-#intro img{
+#intro svg{
     height: 40px;
     border-radius: 10px;
     margin-left: 10px;
@@ -187,13 +187,13 @@ a{
     font-weight: bolder;
 }
 #intro ul{
-    justify-content: left;
-    align-items:left;
-    text-align:left;
-    margin-left: 10px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    margin-right: 50px;
 }
 #intro li{
-    color: rgb(240, 112, 6);
+    /* color: rgb(240, 112, 6); */
 }
 .card{
     justify-content:center;
@@ -322,7 +322,7 @@ a{
     color: rgb(240, 112, 6);
    } 
 .prpro{
-    border:1px solid #2F3336 ;
+    /* border:1px solid #2F3336 ; */
     width: 80%;
     border-radius: 20px;
     margin: 30px auto;
